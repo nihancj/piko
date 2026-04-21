@@ -108,9 +108,13 @@ public class SettingsStatus {
     public static void disableReelsScrolling() {
         disableReelsScrolling = true;
     }
+    public static boolean hideReelsCommentButton = false;
+    public static void hideReelsCommentButton() {
+        hideReelsCommentButton = true;
+    }
 
     public static boolean distractionFreeSection() {
-        return (hideNotesTray || disableStories || disableExplore || disableComments || hideStoriesTray || limitFollowingFeed || hideGroupCreationOnSharesheet || disableReelsScrolling);
+        return (hideNotesTray || disableStories || disableExplore || disableComments || hideStoriesTray || limitFollowingFeed || hideGroupCreationOnSharesheet || disableReelsScrolling || hideReelsCommentButton);
     }
 
     //Misc section.

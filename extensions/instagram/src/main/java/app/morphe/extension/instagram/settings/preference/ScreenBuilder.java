@@ -273,6 +273,15 @@ public class ScreenBuilder {
                     )
             );
         }
+        if (SettingsStatus.disableReelsScrolling) {
+            addPreference(category,
+                    helper.switchPreference(
+                            Strings.HIDE_REELS_COMMENT_BUTTON,
+                            "",
+                            Settings.HIDE_REELS_COMMENT_BUTTON
+                    )
+            );
+        }
     }
 
     public void buildMiscSection() {

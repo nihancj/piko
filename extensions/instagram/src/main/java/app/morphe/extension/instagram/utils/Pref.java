@@ -144,5 +144,9 @@ public class Pref {
         return SharedPref.getBooleanPerf(Settings.COMMENT_COPY_BUTTON) && SettingsStatus.copyCommentButton;
     }
 
+    public static boolean showReelsCommentButton(){
+        return !(SharedPref.getBooleanPerf(Settings.HIDE_REELS_COMMENT_BUTTON) && SettingsStatus.hideReelsCommentButton);
+    }
+
     //end
 }

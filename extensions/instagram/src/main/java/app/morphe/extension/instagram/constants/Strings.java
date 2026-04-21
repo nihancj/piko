@@ -57,6 +57,7 @@ public class Strings {
     public static final String HIDE_NOTES_TRAY = "Hide notes tray";
     public static final String HIDE_NOTES_TRAY_DESC = "Hides notes tray in DM section";
     public static final String HIDE_GROUP_CREATION_BUTTON_ON_SHARESHEET = "Hide group creation button on sharesheet";
+    public static final String HIDE_REELS_COMMENT_BUTTON = "Hides the comment button on reels";
 
     public static final String CATEGORY_MISC = "Misc";
     public static final String DISABLE_ANALYTICS = "Disable analytics";
